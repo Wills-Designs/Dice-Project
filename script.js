@@ -1,5 +1,5 @@
-let randomNumber1 = Math.floor(Math.random() * 7)
-let randomNumber2 = Math.floor(Math.random() * 7)
+let randomNumber1 = Math.ceil(Math.random() * 6)
+let randomNumber2 = Math.ceil(Math.random() * 6)
 let winner;
 
 document.querySelector(".img1").setAttribute("src", `images/dice${randomNumber1}.png`)
